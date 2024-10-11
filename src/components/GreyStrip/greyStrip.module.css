@@ -1,0 +1,31 @@
+
+.wrapper {
+    height: 32px;
+    width: 100vw;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+}
+
+.wrapper .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.wrapper .flex p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    letter-spacing: 1px;
+    color: #EB4C6B;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper .flex:not(:first-child){
+        display: none;
+    }
+}
