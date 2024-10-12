@@ -1,0 +1,77 @@
+.filterContainer {
+    width: 300px;
+}
+
+.checkbox {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #E5E5E5;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.checkbox input {
+    height: 22px;
+    width: 22px;
+}
+
+/* Filter Section */
+.filter {
+    padding-top: 26px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+/* Filter Header for Dropdown */
+.filterHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+}
+
+/* Collapsed Filter Options (Initially hidden) */
+.filterOptions {
+    margin-top: 16px;
+}
+
+.filterOptions p {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 8px;
+}
+
+.unselect {
+    font-size: 14px;
+    color: #888792;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.checkboxOption {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.checkboxOption input {
+    height: 22px;
+    width: 22px;
+    margin-right: 8px;
+}
+
+/* Select Dropdown */
+.filter select {
+    border: none;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+}
