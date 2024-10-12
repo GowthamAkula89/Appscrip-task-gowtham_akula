@@ -1,0 +1,124 @@
+.productsContainer {
+    width: 100vw;
+    padding: 10px;
+}
+
+.sort {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 41px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.sort .show {
+    display: none;
+}
+
+.sort .show p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    cursor: pointer;
+    color: #888792;
+}
+
+.sort select {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    border: none;
+    padding: 8px; 
+    background-color: #f9f9f9;
+    cursor: pointer; 
+
+}
+.filter{
+    display: inline-block;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.filters {
+    display: none;
+}
+
+.productsShow,
+.productsHide {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    justify-content: center;
+}
+
+/* Larger screens (min-width: 768px) */
+@media (min-width: 768px) {
+    .productsContainer {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    .sort {
+        height: 88px;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .sort .show {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        width: 100%;
+        gap: 75px;
+        border: none;
+    }
+    
+
+    .sort .show p:first-child {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    .sort select {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: row;
+        margin-top: 36px;
+        gap: 16px;
+    }
+    .filter{
+        display: none;
+    }
+    .filters {
+        display: block;
+        flex: 1;
+    }
+
+    .productsShow,
+    .productsHide {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+        flex: 3;
+    }
+}
+
+/* Larger screens (min-width: 1024px) */
+@media (min-width: 1024px) {
+    .wrapper {
+        padding-left: 96px;
+        padding-right: 96px;
+    }
+
+    .productsHide {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
