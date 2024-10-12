@@ -43,7 +43,7 @@ const Products = () => {
                 
             <CustomDropdown
                 options={filterOptions}
-                onSelect={(option) => console.log('Selected:', option)} // Handle the selected option
+                onSelect={(option) => console.log('Selected:', option)}
             />
         </div>
   

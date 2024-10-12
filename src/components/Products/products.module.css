@@ -102,9 +102,13 @@
         display: block;
         flex: 1;
     }
-
-    .productsShow,
-    .productsHide {
+    
+    .productsShow {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+        flex: 3;
+    }
+    .productsHide{
         grid-template-columns: repeat(3, 1fr);
         gap: 32px;
         flex: 3;
