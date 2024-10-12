@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './products.module.css';
 import Filter from '../Filters/Filter';
-import ProductCard from '../ProductCard/productCard';
+import ProductCard from '../ProductCard/ProductCard';
 const filterOptions = ['RECOMMENDED', 'NEWEST FIRST', 'POPULAR', 'PRICE: HIGH TO LOW', 'PRICE: LOW TO HIGH'];
 import CustomDropdown from '../CustomDropDown/customDropDown';
 
