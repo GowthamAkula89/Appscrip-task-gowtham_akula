@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer/Footer";
 import styles from "./page.module.css";
-import GreyStrip from "@/components/GreyStrip/greyStrip";
+import GreyStrip from "@/components/GreyStrip/GreyStrip";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
 import Products from '@/components/Products/Products';

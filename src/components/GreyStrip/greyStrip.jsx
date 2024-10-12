@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './greyStrip.module.css'
+import styles from './GreyStrip.module.css'
 import Image from 'next/image'
 
 const GreyStrip = () => {

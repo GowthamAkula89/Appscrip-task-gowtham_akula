@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './productCard.module.css';
+import styles from './ProductCard.module.css';
 import Image from 'next/image';
 
 const ProductCard = ({ product }) => {
