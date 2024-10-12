@@ -1,0 +1,245 @@
+
+
+.wrapper{
+    height: 750px;
+    width: 100vw;
+    padding: 79px 64px 25px 128px;
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.wrapper h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.top{
+    display: flex;
+    margin-bottom: 26px;
+}
+
+.top .first{
+    width: 57%;
+}
+
+.top .first p{
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 51px;
+    line-height: 19.2px;
+    font-weight: 400;
+}
+
+.top .first .email{
+    display: flex;
+    gap: 16px;
+    padding-right: 15px;
+}
+
+.top .first .email input{
+    height: 47px;
+    width: 348px;
+    padding-left: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+
+.top .first .email button {
+    height: 48px;
+    width: 184px;
+    text-transform: uppercase;
+    background: transparent;
+    color: #ffffff7f;
+    border: 1.14px solid #e5e5e54b;
+    border-radius:  5px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.top .contact{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.top .contact p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+.top .contact p:last-child{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+}
+
+.top .contact div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.top .contact div img:first-child{
+    height: 24px;
+    width: 24px;
+}
+
+.bottom{
+    display: flex;
+    margin-top: 56px;
+    margin-bottom: 37px;
+}
+
+.bottom .left{
+    width: 57%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.bottom .left div h3{
+    margin-bottom: 18px;
+}
+
+.bottom .left div p{
+    margin-bottom: 16px;
+}
+
+.bottom .right{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.bottom .right .social h3{
+    margin-bottom: 24px;
+}
+
+.bottom .right .social img{
+    height: 36px;
+    width: 36px;
+    margin-right: 12px;
+}
+
+.bottom .right .payment h3 span{
+    text-transform: lowercase;
+}
+
+.bottom .right .payment img{
+    height: 35px;
+    width: 56px;
+    margin-right: 8px;
+    margin-top: 16px;
+}
+
+.mobile{
+    display: none;
+}
+
+.copyright{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
+}
+@media only screen and (max-width: 767px){
+    body .wrapper{
+        padding: 16px;
+        height: 875px;
+    }
+    body .top{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    body .top .first{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #E5E5E5;
+    }
+
+    body .top .first p{
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 19.2px;
+        font-weight: 400;
+    }
+
+    body .top .first .email{
+        width: 100%;
+        display: flex;
+        gap: 16px;
+    }
+
+    body .top .first .email input{
+        width: 65%;
+    }
+    body .top .first .email button{
+        width: 25%;
+    }
+
+    body .top .contact{
+        padding-top: 24px;
+    }
+
+    body .top .contact .email{
+        padding-bottom: 24px;
+        border-bottom: 1px solid #E5E5E5;
+    }
+
+    body .top .contact .number, body .top .contact .para{
+        display: none;
+    }
+
+    body .bottom{
+        display: none;
+    }
+
+    body .mobile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    body .mobile select, body .mobile .payment{
+        padding-top: 24px;
+        border: none;
+        padding-bottom: 24px;
+        margin-bottom: 1px solid #FFFFFF;
+        background: transparent;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.2px;
+        color: #FFFFFF
+    }
+
+    body .mobile .payment{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 24px;
+    }
+
+    body .mobile .payment h3 span{
+        text-transform: lowercase;
+    }
+
+    body .mobile .payment div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    body .mobile .payment div img{
+        height: 30px;
+        width: 50px;
+    }
+}
