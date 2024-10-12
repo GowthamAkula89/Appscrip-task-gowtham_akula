@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import styles from './header.module.css';
+import styles from './Header.module.css';
 import Image from 'next/image';
 import { IoMdMenu } from 'react-icons/io';
 import { IoMdClose } from 'react-icons/io';

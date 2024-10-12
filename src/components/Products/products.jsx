@@ -1,11 +1,11 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import styles from './products.module.css';
+import styles from './Products.module.css';
 import Filter from '../Filters/Filter';
 import ProductCard from '../ProductCard/ProductCard';
 const filterOptions = ['RECOMMENDED', 'NEWEST FIRST', 'POPULAR', 'PRICE: HIGH TO LOW', 'PRICE: LOW TO HIGH'];
-import CustomDropdown from '../CustomDropDown/customDropDown';
+import CustomDropdown from '../CustomDropDown/CustomDropDown';
 
 
 const Products = () => {

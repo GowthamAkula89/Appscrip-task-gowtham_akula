@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './dropdown.module.css';
+import styles from './Dropdown.module.css';
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 const CustomDropdown = ({ options, onSelect }) => {

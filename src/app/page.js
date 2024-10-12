@@ -1,9 +1,9 @@
-import Footer from "@/components/Footer/footer";
+import Footer from "@/components/Footer/Footer";
 import styles from "./page.module.css";
 import GreyStrip from "@/components/GreyStrip/greyStrip";
-import Header from "@/components/Header/header";
+import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
-import Products from '@/components/Products/products';
+import Products from '@/components/Products/Products';
 
 export default function Home() {
   
