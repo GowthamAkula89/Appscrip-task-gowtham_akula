@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/footer";
 import styles from "./page.module.css";
 import GreyStrip from "@/components/GreyStrip/greyStrip";
 import Header from "@/components/Header/header";
@@ -14,7 +15,7 @@ export default function Home() {
         <Hero/>
         <Products/>
       </main>
-      
+      <Footer/>
     </div>
   );
 }
